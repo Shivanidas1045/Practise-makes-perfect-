@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    
+    <!-- form to submit -->
+    
+<form>
+    <h1>Submit Your task here!</h1>
+    <!-- first input box -->
+    <h3>Task Name</h3>
+    <input id="task" type="text" placeholder="enter your task...">
+    <!-- select box option -->
+    <h3>Select Priority</h3>
+    <select name="Priority" id="selection">
+        <option value="High">High</option>
+        <option value="Medium">Medium</option>
+        <option value="Low">Low</option>
+    </select>
+    <!-- button -->
+    <input id="btn" type="submit">
+</form>
+
+<!-- dashboard -->
+
+<table>
+    <!-- heading of the dashboard -->
+    <thead>
+        <!-- rows of the table -->
+        <tr>
+            <th>Task</th>
+            <th>Priority</th>
+            <th>Remove</th>
+        </tr>
+    </thead>
+    <!-- whatever task we will add it will show here -->
+    <tbody></tbody>
+</table>
+
+</body>
+</html>
+<!-- javscript functionality -->
+<script src="./index.js"></script>

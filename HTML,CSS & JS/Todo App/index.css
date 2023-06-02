@@ -1,0 +1,90 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+body{
+    display:flex;
+}
+/* form */
+form{
+    height:500px;
+    width:400px;
+    padding-top:20px;
+    margin-left:50px;
+    margin-top:100px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+input{
+    height:30px;
+    width:300px;
+    margin:auto;
+    margin-left:40px;
+
+    
+}
+select{
+    height:30px;
+    width:300px;
+    margin:auto;
+    margin-left:40px;
+    
+
+}
+form h1{
+    text-align:center;
+    color:#8B008B;
+    
+}
+form h3{
+    margin-left:40px;
+    color:#8B008B;
+    margin-top:20px;
+    margin-bottom:5px;
+}
+ #btn{
+    margin-top:30px;
+    padding-top:20px;
+    padding-bottom:30px;
+    background-color:#8B008B;
+    color:white;
+    border-radius: 30px;
+    border:none;
+    
+ }
+ #btn:hover{
+    background-color:darkviolet;
+    font-style:italic;
+ }
+ /* dashboard */
+
+
+ 
+ table{
+    width:50%;
+    margin-left:80px;
+    margin-top:100px;
+    border:0px solid blue;
+    height:20px;
+
+    
+    
+    
+ }
+ td{
+    text-align:center;
+    height:30px;
+    width:80px;
+    border:3px solid #8B008B;
+ }
+ thead{
+    background-color:#8B008B;
+    height:50px;
+    color:white;
+    border:0px solid black;
+    
+    
+ }
+ 
+ 
+ 
+ 
